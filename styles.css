@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+    position: relative;
+    }
+    
+    @media (max-width: 768px){
+    body{
+    display: block;
+    width: 100%;}
+    .flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    }
+    }
+    
